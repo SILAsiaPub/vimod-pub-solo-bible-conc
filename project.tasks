@@ -1,27 +1,28 @@
-iso code                                ;var iso eng
-language name                           ;var languagename "English"
-country                                 ;var country "Philippines"
-Rights holder                           ;var rightsholder "Public Domain"
+# edit the usx export path to suit you machine
+usx export path                         ;var usxexportpath "D:\usx\*.usx"
+
+# Front matter
 title of pub                            ;var title "World English Bible Concordance"
 title of pub                            ;var subtitle "Complete"
-usx export path                         ;var usxexportpath "D:\usx\*.usx"
+                                        ;var compiler "Your Name"  
+                                        ;var publisher "someone.org"
+                                        ;var publication-date "2016"
+                                        ;var verso-top "This concordance omits one and two letter words."
+                                        ;var verso-bottom "Concordance builder: Vimod-pub-solo Bible-conc_https://github.com/silasiapub/vimod-pub-solo-bible-conc_Typesetting engine: PrinceXML_http://princexml.com"
+                                        ;var verso-rights "Public Domain"
+                                        
+# the following should not need editing
 usx project path                        ;var usxpath "%projectpath%\usx"
 files for collection                    ;var collectionfile "*.usx"
 group node                              ;var groupnodelist "book chapter"
  book order                             ;var bookorderfile "%pubpath%\resources\book-chaps.txt"
-web site for download                   ;var website "www.ebible.net"
 remove elements                         ;var remove-element-content_list "bookGroup note chapter figure"
 remove elements                         ;var remove-element_list "char"
                                         ;var del-ec-attrib-name "style"
                                         ;var del-ec-attrib-value_list "s s1 s2 s3 sp ms r mt mt1 mt2 mt3 restore d periph d bk"
                                         ;var del-e-attrib-name "style"
+# css
                                         ;var conccss "../css/conc1.css"
                                         ;var concfrontmattercss "../css/concfront.css"
                                         ;var min-word-length 3
-                                        ;var compiler "Ian McQuay"  
-                                        ;var publisher "ebible.org"
-                                        ;var publication-date "2016"
-                                        ;var verso-top "This concordance omits one and two letter words."
-                                        ;var verso-bottom "Concordance builder: Vimod-pub-solo Bible-conc_https://github.com/silasiapub/vimod-pub-solo-bible-conc_Typesetting engine: PrinceXML_http://princexml.com"
-                                        ;var verso-rights "Public Domain"
                                         ;projectxslt
