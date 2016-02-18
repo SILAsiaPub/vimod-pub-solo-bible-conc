@@ -25,4 +25,4 @@ To use this project:
 * If you have a Yellow screen, something went wrong.Read what it says and try and fix it.
 * At the end of step e the PDF should open after a few minutes.
 
-It maybe that you need to adjust the CSS files to get the look you want. These are found in the css folder. If you adjust the css files you don't need to remake your HTML files justthe PDF. But if you change your project.tasks file you do need to remake the HTML files before remaking the PDF.
+It maybe that you need to adjust the CSS files to get the look you want. These are found in the css folder. If you adjust the css files you don't need to remake your HTML files just the PDF. But if you change your project.tasks file you do need to remake the HTML files before remaking the PDF.
