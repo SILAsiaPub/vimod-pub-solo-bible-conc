@@ -22,6 +22,6 @@ remove elements                         ;var remove-element_list "char"
                                         ;var publisher "ebible.org"
                                         ;var publication-date "2016"
                                         ;var verso-top "This concordance omits one and two letter words."
-                                        ;var verso-bottom "Concordance builder: Vimod-pub Bible-conc_https://github.com/silasiapub/bible-conc_Typesetting engine: PrinceXML_http://princexml.com"
+                                        ;var verso-bottom "Concordance builder: Vimod-pub-solo Bible-conc_https://github.com/silasiapub/vimod-pub-solo-bible-conc_Typesetting engine: PrinceXML_http://princexml.com"
                                         ;var verso-rights "Public Domain"
                                         ;projectxslt
