@@ -1,0 +1,21 @@
+# PrinceXML
+# parameters 1. infile 2. outfile 3 style1.css 4 style2 5 javascript
+Prince                                  ;var prince "C:\Program Files (x86)\Prince\engine\bin\prince.exe"
+infile                                  ;infile "%~2"
+outfile                                 ;outfile "%~3" "%projectpath%\pdf\output.pdf"
+css1                                    ;var cssstyle1 "%~4"
+css2                                    ;var cssstyle2 "%~5"
+javascript                              ;var jscript "%~6"
+make css1 param                         ;command "if defined cssstyle1 set style1=-s '%css1%'"
+make css2 param                         ;command "if defined cssstyle2 set style2=-s '%css2%'"
+make js param                           ;command "if defined jscript set javascript=--script='%jscript%'"
+                                        ;checkdir "%projectpath%\pdf"
+set css2 param                          ;ifdefined css2 var "style2 -s '%css2%'"
+set script param                        ;ifdefined jscript var "javascript '%jscript%''"
+                                        ;inccount
+                                        ;var curcommand "'%prince%' %style1% %style2% %javascript% '%infile%' -o '%outfile%'"
+                                        ;before
+#                                        ;echoon
+                                        ;command "%curcommand%"
+#                                        ;echooff
+                                        ;after

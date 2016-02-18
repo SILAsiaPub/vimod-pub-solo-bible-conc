@@ -1,0 +1,5 @@
+# bible-conc-html.tasks
+get var                                 ;projectvar
+make title page and verso               ;xslt bible-conc-TitlePage-verso "" "blank.xml" "%projectpath%\html\front-matter.html"
+run html transform                      ;xslt bible-conc-HTML-print-PDF "" "%projectpath%/xml/wordlist-sorted.xml" "%projectpath%\html\wordlist-for-pdf-trial.html"
+

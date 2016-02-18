@@ -1,0 +1,6 @@
+                                        ;projectvar
+Remove unwwanted fields                 ;xslt bible-conc-simplify1 "" "%projectpath%\xml\usx-chap-grp.xml" "%projectpath%\xml\simplified-usx.xml"
+make wordlist                           ;xslt bible-conc-wordlist
+rename wordlist                         ;outputfile "%projectpath%\xml\wordlist.xml"
+make wordlist                           ;xslt bible-conc-sort-group
+rename output                           ;outputfile "%projectpath%\xml\wordlist-sorted.xml"

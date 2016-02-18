@@ -1,0 +1,74 @@
+# user_installed.tools
+# =============================================================================
+# Essential tools
+# ------------------------------------------------------------------------------
+# Saxon9 http://saxon.sourceforge.net
+saxon9=pub\tools\saxon\saxon9he.jar
+
+# =============================================================================
+# Tools found in the path
+# ------------------------------------------------------------------------------
+#
+# Consistent Changes for Windows
+# http://www.sil.org/computing/catalog/show_software.asp?id=4
+ccw32=ccw32
+
+# XMLstar is from http://xmlstar.sourceforge.net/
+xml=xml
+# Binmay a HEX find and replace tool for binary and text files.
+# http://www.filewut.com/spages/pages/software/binmay/files/
+binmay=binmay
+# Various GNUwin32 tools for Windows http://gnuwin32.sourceforge.net/packages/coreutils.htm
+csplit=csplit
+uniq=uniq
+sort=sort
+
+# Stream editor for RegEx changes http://gnuwin32.sourceforge.net/packages/sed.htm
+sed=sed
+
+# Phonegap for creating Android Hybrid Apps.  http://docs.phonegap.com/en/3.0.0/guide_cli_index.md.html
+phonegap=phonegap
+# java tools for Android from Java JRE
+keytool=keytool
+jarsigner=jarsigner
+
+ant=ant
+tidy=tidy
+
+# =============================================================================
+# Tools not found in the path
+# ------------------------------------------------------------------------------
+# http://pathway.sil.org
+pathwayxetex=C:\Program Files (x86)\SIL\Pathway7\pathwayb.exe
+# http://www.princexml.com
+prince=C:\Program Files (x86)\Prince\engine\bin\Prince.exe
+# http://code.google.com/p/wkhtmltopdf/
+wkhtmltopdf=C:\Program Files (x86)\wkhtmltopdf\wkhtmltopdf.exe
+# http://johnmacfarlane.net/pandoc/installing.html
+pandoc=C:\Program Files (x86)\Pandoc\bin\pandoc.exe
+# http://xmlgraphics.apache.org/fop/
+fopjar=C:\Program Files (x86)\fop\build\fop.jar
+fop=C:\Program Files (x86)\fop\fop.bat
+# 7-zip
+zip=C:\Program Files\7-Zip\7z.exe
+# google cordova
+cordovapath=F:\programs\cordova-2.8.1
+# google phonegap
+
+# html5 tidy5
+tidy5=C:\programs\tidy5\tidy5.exe
+# GeckoFxHtmlToPdf
+# https://github.com/hatton/geckofxHtmlToPdf
+GeckoFxHtmlToPdf=tools\GeckoFxHtmlToPdf\GeckoFxHtmlToPdf.exe
+# speedata
+# http://speedata.github.io/publisher/
+speedata=tools\speedata-publisher\bin\sp.exe
+# Apache ant
+# ant=c:\programs\ant\bin\ant.cmd
+
+fop=plugins\fop.cmd
+fop2=C:\programs\fop2\fop.cmd
+
+java=C:\Program Files\Java\jdk1.7.0_79\bin\java.exe
+
+

@@ -1,0 +1,32 @@
+# userfeedback.settings
+# the following are normally on
+echoutilities=
+echoecholog=on
+echoafterspacepre=on
+echoafterspacepost=on
+echoifexist=on
+echospinoffcopy=on
+# The following outline tasklists that are being used. Which may be instructive
+echotasklist=on
+echotasklistend=on
+# turn on what you want of the following
+echocommandtodo=on
+echofuncname=on
+echofromstart=
+echousercommand=
+echovariableslist=
+echoeachvariablelistitem=
+echomenutype=
+echoforceprojectpath=
+echomenuparams=
+echomenulist=
+echofile2uri=
+echoprojectpath=
+echomenuskipping=
+echodebugmarker=
+echodrivepath=
+echojavatrace=
+echodirnotfound=
+breaktasklist1=
+breaktasklist2=
+breaktasklist3=

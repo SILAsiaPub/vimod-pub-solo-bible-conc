@@ -1,0 +1,5 @@
+#make Toolbox DB for ref                ;
+                                        ;projectvar
+make Toolbox ref to edit                ;xslt bible-conc-sort-group-toolbox-db "" "%projectpath%\xml\wordlist.xml" "%projectpath%\toolbox\conc-edit-ifb.xml"
+Make Toolbox chapt db                   ;xslt usx2USFM-4Toolbox-chapters "" "%projectpath%\xml\usx-chap-grp.xml" "%projectpath%\toolbox\chapt-usfm-ifb.sfm"
+make Toobox verse ref db                ;xslt bible-conc-verse-db "" "%projectpath%\xml\simplified-usx.xml" "%projectpath%\toolbox\verse-ifb.xml"

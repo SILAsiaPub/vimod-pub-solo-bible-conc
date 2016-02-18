@@ -1,0 +1,5 @@
+# move usx files from d:\usx to Projectpath
+# usx-exports-move-to-project.tasks
+project var                             ;projectvar
+make sure dir exists                    ;checkdir "%usxpath%"
+move files                              ;ifexist "%usxexportpath%" move "%usxpath%"

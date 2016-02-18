@@ -1,0 +1,18 @@
+@page {
+  size:letter portrait;
+  }
+@page:left {
+  margin: 20mm 37mm 13mm 13mm;
+}
+@page:right {
+  margin: 20mm 13mm 13mm 27mm;
+}
+.titlepage {text-align:center;}
+.title {margin-top: 70mm;}
+.titlemid  {margin-top: 60mm;}
+.titlepub  {margin-top: 60mm;}
+
+.verso {page-break-before: always; text-align:center;}
+.verso-top {margin-top: 20mm;white-space: pre;}
+.verso-bottom {margin-top: 100mm}
+.verso-rights {margin-top: 100mm; white-space: pre;}

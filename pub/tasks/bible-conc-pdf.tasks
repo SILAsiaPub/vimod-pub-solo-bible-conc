@@ -1,0 +1,7 @@
+get var                                 ;projectvar
+var files                               ;var front "front-matter.html"
+var files                               ;var main "wordlist-for-pdf-trial.html"
+var                                     ;var pdf "%projectpath%\pdf\conc.pdf"
+custom prince make                      ;command "'%prince%' '%front%' '%main%' -o '%pdf%'" "%projectpath%\html" "%pdf%"
+#make pdf                                ;tasklist prince.tasks "%projectpath%\html\wordlist-for-pdf-trial.html" "%projectpath%\pdf\conc.pdf"
+start pdf                               ;start "" "%outfile%"                                                              

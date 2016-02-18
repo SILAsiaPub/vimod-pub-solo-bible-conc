@@ -1,0 +1,33 @@
+# vimod.variables
+# osversion xp win7 win8
+osversion=win10
+stacknumb=1
+# alternative path location of XSLTs
+altxsltpath=D:\All-SIL-Publishing\sfm-dict2web\scripts\xslt
+cctparam=-u -b -q -n
+varfile=%gpbupath%\setup\default-setup-%type%.TXT
+localvar=checked
+localhostpath=%htmlpath%
+defaultmenu=project.menu
+# Utilities files
+functiondebugsettings=function_debug_settings.var
+userfeedbacksettings=user_feedback_settings.var
+# note 0 on the end of lettermaster is not used it is set as the stop menubefore letter
+stopmenubefore=0
+lettersmaster=abcdefghijklmnopqrstuvwxy1234567890
+stacksourcemaster=abcdefghijklmnopqrstuvwxyz1234567890
+gt=^>
+lt=^<
+hash=#
+squote='
+dquote="
+semicolon=;
+equal==
+utilityletter=0
+exitletter=z
+# android build variables
+defaultkeystorepath=D:\All-SIL-Publishing\vimod-pub\Android-keystore
+#spinoff default path
+defaultspinoffdir=C:\vimod-spinoff-project
+preset-proj-list=android-simplehtmlscr ID-epub2usfm u-dict
+xslt-ext=xslt

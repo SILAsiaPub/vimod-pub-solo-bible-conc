@@ -1,0 +1,7 @@
+move usx files from d:\usx to project             ;tasklist usx-exports-move-to-project.tasks
+combine usx and group                             ;tasklist simplehtmlscr-v2-xml.tasks
+simplify xml file                                 ;tasklist bible-conc-simplify.tasks
+make HTML for PDF                                 ;tasklist bible-conc-html.tasks
+make pdf                                          ;tasklist bible-conc-pdf.tasks
+make Toolbox db                                   ;tasklist bible-conc-make-toolbox-db.tasks
+

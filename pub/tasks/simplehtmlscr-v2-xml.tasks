@@ -1,0 +1,6 @@
+# A tasks file for Vimod Pub http://projects.palaso.org/projects/vimod-pub
+# xml tasks
+get proj + common var         ;projectvar
+#Combine xml files n group     ;xslt usx2usx-chap-grp "path='%usxpath%' files='*.usx' parentnode='usx' groupnodelist='book chapter'" "%xsltpath%\blank.xml"
+Combine xml files n group     ;xslt usx2usx-chap-grp2 "" "blank.xml"
+copy to new name              ;outputfile "%projectpath%\xml\usx-chap-grp.xml"
