@@ -1,4 +1,5 @@
 # userfeedback.settings
+echoeachvariablelistitem=
 # the following are normally on
 echoutilities=
 echoecholog=on
@@ -11,11 +12,10 @@ echotasklist=on
 echotasklistend=on
 # turn on what you want of the following
 echocommandtodo=on
-echofuncname=on
+echofuncname=
 echofromstart=
 echousercommand=
 echovariableslist=
-echoeachvariablelistitem=
 echomenutype=
 echoforceprojectpath=
 echomenuparams=

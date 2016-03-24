@@ -1,6 +1,8 @@
 # vimod.variables
-# osversion xp win7 win8
+# osversion xp win7 win8 win10
 osversion=win10
+#dateformats yyyy-mm-dd or mm-dd-yyyy or dd-mm-yyyy
+dateformat=yyyy-mm-dd
 stacknumb=1
 # alternative path location of XSLTs
 altxsltpath=D:\All-SIL-Publishing\sfm-dict2web\scripts\xslt
