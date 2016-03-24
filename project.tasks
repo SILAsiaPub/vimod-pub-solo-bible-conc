@@ -1,5 +1,5 @@
 # edit the usx export path to suit you machine
-usx export path                         ;var usxexportpath "D:\usx\*.usx"
+usx export path                         ;var usxexportpath "C:\usx\*.usx"
 
 # Front matter
 title of pub                            ;var title "World English Bible Concordance"
